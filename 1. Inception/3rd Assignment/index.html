@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- CDN links of react: Yes we are going to inject react from CDN -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      const title = React.createElement(
+        "h1",
+        {
+          id: "title",
+        },
+        "Hello World in React!"
+      );
+
+      const subTitle = React.createElement(
+        "h2",
+        {
+          id: "subTitle",
+        },
+        "React is a javascript library."
+      );
+
+      const container = React.createElement(
+        "div",
+        {
+          id: "container",
+        },
+        [title, subTitle]
+      );
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+
+      root.render(container);
+    </script>
+  </body>
+</html>
