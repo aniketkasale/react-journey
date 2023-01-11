@@ -2,7 +2,7 @@
 
 Hello, so today we have achieved writing react code, without using CRA.
 
-## Some Notes!
+## Notes!
 
 **What is Emmet?**
 
