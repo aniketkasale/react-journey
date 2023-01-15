@@ -1,4 +1,6 @@
 ﻿# Day 2
+
+### Assignment of this day is done in another repo, because wanna create special repo for our app. Click [here](https://github.com/aniketkasale/quick-bite) to visit repo!
 ## Notes!
 
 **What is `NPM`?**
